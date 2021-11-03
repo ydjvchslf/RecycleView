@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <!-- 애니메이션이 동작할때 똑같은 속도가 아닌, 다른 속도로 설정하고 싶을때
+         interpolator 속성 사용
+         영어 뜻에서 알 수 있듯이, 악셀_디셀 : 빨라졌다가 느려졌다가 함 -->
+
+    <!-- 오른쪽 끝에서 젤 왼쪽으로 이동하는 애니메이션 -->
+    <translate
+        android:fromXDelta="100%p"
+        android:toXDelta="0%p"
+        android:duration="500"
+        android:repeatCount="0"
+        android:fillAfter="true" />
+    <!-- 0.5s동안 반복하지 않고 채우고 나서는 가만히 있겠다 true (애니로 확인하자) -->
+
+</set>
