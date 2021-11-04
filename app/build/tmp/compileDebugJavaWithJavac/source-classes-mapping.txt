@@ -1,0 +1,10 @@
+com/example/recycleview/SecondActivity.java
+ com.example.recycleview.SecondActivity
+com/example/recycleview/BuildConfig.java
+ com.example.recycleview.BuildConfig
+com/example/recycleview/MyAdapter.java
+ com.example.recycleview.MyAdapter
+ com.example.recycleview.MyAdapter$1
+ com.example.recycleview.MyAdapter$MyViewHolder
+com/example/recycleview/MainActivity.java
+ com.example.recycleview.MainActivity
